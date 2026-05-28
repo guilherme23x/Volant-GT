@@ -37,7 +37,9 @@ O projeto usa a ferramenta **`uv`** para um gerenciamento super-rápido de pacot
 O servidor requer algumas bibliotecas do sistema para interface gráfica e manipulação de entrada. Caso não as tenha, execute:
 ```bash
 sudo apt update
-sudo apt install libqt6gui6 libqt6widgets6 libqt6core6 policykit-1
+sudo apt install libqt6gui6 libqt6widgets6 libqt6core6 policykit-1 -y
+sudo apt install python3-pip python3-tk -y
+sudo pip install "evdev>=1.9.3" "kivy>=2.3.1" "plyer>=2.1.0" "pyside6>=6.11.0" "websockets>=16.0"
 ```
 
 ## 🚀 Build e Execução

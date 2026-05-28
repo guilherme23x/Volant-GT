@@ -1,0 +1,18 @@
+[project]
+name = "volant-gt"
+version = "2.2.0"
+description = "Aplicativo mobile e servidor Linux para transformar o celular num controle virtual ou volante."
+authors = [
+    {name = "Gui23x", email = "guigomes4330@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "buildozer>=1.5.0",
+    "cython>=3.2.4",
+    "evdev>=1.9.3",
+    "kivy>=2.3.1",
+    "plyer>=2.1.0",
+    "pyside6>=6.11.0",
+    "websockets>=16.0",
+]

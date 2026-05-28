@@ -1,0 +1,25 @@
+# Bloqueia TUDO na raiz do projeto por padrão
+/*
+
+# Permite apenas as pastas estruturais do projeto
+!/app/
+!/assets/
+!/build/
+!/server/
+
+# Permite apenas os arquivos de configuração definidos na raiz
+!/.python-version
+!/.gitignore
+!/pyproject.toml
+!/README.md
+!/requirements.txt
+!/uv.lock
+
+# Bloqueia artefatos e caches mesmo se estiverem nas pastas permitidas
+__pycache__/
+*.py[cod]
+*.deb
+volant-server_*/
+.venv/
+.buildozer/
+bin/
